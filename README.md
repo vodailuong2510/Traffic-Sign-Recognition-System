@@ -1,4 +1,4 @@
-# Traffic-Sign-Recognition-Syste
+# Traffic-Sign-Recognition-System
 # Overview
 This project focuses on developing a traffic sign recognition system capable of identifying 43 different classes of traffic signs. Using deep learning techniques, particularly convolutional neural networks (CNNs), the model is trained on a dataset containing labeled images of traffic signs. The trained model can then classify input images of traffic signs into one of the 43 classes with high accuracy.
 
