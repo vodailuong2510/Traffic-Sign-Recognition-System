@@ -44,9 +44,11 @@ classNames = {0: 'Speed limit (20km/h)',
  41: 'End of no passing',
  42: 'End of no passing by vehicles over 3.5 metric tons'}
 
-train_path = "./data/train.p"
-valid_path = "./data/valid.p"
-test_path = "./data/test.p"
+if __name__ == "__main__":
 
-trainX, trainY, validX, validY, testX, testY = load_data(train_path, valid_path, test_path)
-plot_random_images(trainX, trainY, validX, validY, testX, testY, classNames)
+    train_path = "./data/train.p"
+    valid_path = "./data/valid.p"
+    test_path = "./data/test.p"
+
+    trainX, trainY, validX, validY, testX, testY = load_data(train_path, valid_path, test_path)
+    plot_random_images(trainX, trainY, validX, validY, testX, testY, classNames)
